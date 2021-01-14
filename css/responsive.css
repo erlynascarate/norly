@@ -1,0 +1,81 @@
+
+@media all and (min-width: 660px) {
+	/**************************
+	PAGINA: PORTAFOLIO
+	***************************/
+
+	#gallery li {
+		width: 28.333%;
+	}
+
+	#gallery li:nth-child(3n) {
+		clear: right;
+	}
+
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(7n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(8n) {
+		clear: right;
+	}
+
+	/**************************
+	PAGINA: ACERCA DE
+	***************************/
+
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+	/**************************
+	PAGINA: CONTACTO
+	***************************/
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secundary {
+		width: 40%;
+		float: right;
+	}
+}
+
+@media all and (min-width: 660px) {
+	/**************************
+	HEADER
+	***************************/
+	/*Abajo de header*/
+	header {
+		border-bottom: 5px solid green;
+		margin-bottom: 60px;
+	}
+
+	h2 {
+		margin-bottom: 10px;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+	}
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.225em;
+		margin-right: 5%;
+		text-align: right;
+	}
+
+	nav a.seleccionar,  nav a:hover {
+	color: green;
+
+}
