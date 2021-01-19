@@ -8,7 +8,7 @@
 		width: 28.333%;
 	}
 
-	/*#gallery li:nth-child(3n) {
+	#gallery li:nth-child(3n) {
 		clear: right;
 	}
 
@@ -16,11 +16,15 @@
 		clear: left;
 	}
 
-	#gallery li:nth-child(7n) {
-		clear: left;
+	#gallery li:nth-child(8n) {
+		clear: right;
 	}
 
-	#gallery li:nth-child(8n) {
+	#gallery li:nth-child(11n) {
+		clear: right;
+	}
+
+	#gallery li:nth-child(12n) {
 		clear: right;
 	}
 
