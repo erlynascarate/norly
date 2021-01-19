@@ -214,7 +214,13 @@ nav a {
 	font-weight: 800;
 	padding: 15px 10px;
 }
-
+/*En ropa hago esto/s titulos*/
+.tutus {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	border-bottom: solid 10px skyblue;
+}
 /*************************
 FOOTER
 **************************/
