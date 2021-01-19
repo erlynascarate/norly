@@ -92,6 +92,14 @@ PAGINA: PRODUCTOS
 	clear: right;
 }
 
+#gallery li:nth-child(7n) {
+	clear: left;
+}
+
+#gallery li:nth-child(11n) {
+	clear: left;
+}
+
 /***************************************
 ADENTRO DE LAS IMAGENES DE LOS PRODUCTOS
 ****************************************/
