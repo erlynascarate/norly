@@ -1,112 +1,373 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Norl&yacute; es una tienda de La Uni&oacute;n del bajo Piura que vende calzado, joyas, carteras y ropa. Las entregas te llegan a tu casa en menos de 24:00 horas">
-	<meta name="keywords" content="tiendas de la union, norly, tiendas con delivery, calzado, joyas y carteras">
-    <meta name="author" content="Erlyn David">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Norl&yacute; | Venta de calzado, joyas, carteras y ropa</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/staly.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive-p.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Norl&yacute;</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"href="css/responsive.css">
 </head>
+
 <body>
-	<header>
-		<div class="contenedor">
-			<a href="index.html" id="logo">
-			<h1>Norl&yacute;</h1>
-			<h2>Venta de calzado, joyas, carteras y ropa</h2>
-		</a>
-		<!--Links de navegación-->
-		<nav>
-			<ul>
-				<li><a href="index.html" class="seleccionar">Productos</a></li>
-				<li><a href="acerca de.html">Acerca de</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
-		</div>
-
-		<div class="espacio">
-
-		</div>
-
-		<div id="productos-nav">
-			<a href="index.html" class="selec">Calzado</a>
-			<a href="joyas.html">Joyas</a>
-			<a href="carteras.html">Carteras</a>
-			<a href="ropa.html">Ropa</a>
-			<h4>Los siguientes productos estan a la venta</h4>
-		</div>
-		
-	</header>
-	
-	<div id="wrapper">
-		<section>
-			<ul id="gallery">
-				<li>
-					<a href="calzado-1.html">
-						<img src="img/sandalia-1.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-2.html">
-						<img src="img/sandalia-2.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-3.html">
-						<img src="img/sandalia-3.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-4.html">
-						<img src="img/sandalia-4.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-5.html">
-						<img src="img/sandalia-5.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-6.html">
-						<img src="img/sandalia-6.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-7.html">
-						<img src="img/sandalia-7.jpeg" alt="Par de sandalias">
-						<p>Sandalias</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-8.html">
-						<img src="img/zapatilla-8.jpeg" alt="Par de zapatillas">
-						<p>Zapatillas</p>
-					</a>
-				</li>
-				<li>	
-					<a href="calzado-9.html">
-						<img src="img/zapatilla-9.jpeg" alt="Par de zapatillas">
-						<p>Zapatillas</p>
-					</a>
-				</li>
-			</ul>
-		</section>
-	</div>
-	<footer>
-		<a href="https://www.facebook.com/veronikha.lachiflores" target="-blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
-		<p>&copy; 2020 - 2021 Norlý</p>
-	</footer>
-	<script src="js/main.js"></script>
+   <header>
+      <nav>
+         <div class="logo">
+            <a href="#">
+               <h1>Norl&yacute;</h1>
+            </a>
+         </div>
+         <div class="nav">
+            <div class="menu-toggle">
+               <i class="fa fa-bars"></i>
+            </div>
+            <a href="index.html" class="select">Productos</a>
+            <a href="acerca-de.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+         </div>
+         <div id="menu">
+            <a href="#calzado">Calzado</a>
+            <a href="#joyas">Joyas</a>
+            <a href="#carteras">Carteras</a>
+            <a href="#ropa">Ropa</a>
+         </div>
+      </nav>
+   </header>
+   
+   <section id="calzado">
+      <div class="titulo">
+         <h2>Calzado</h2>
+      </div>
+      <section class="contenido">
+         <article>
+            <img loading="lazy" src="img/sandalia-1.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00001</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-2.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00002</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-3.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00003</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-4.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00004</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-5.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00005</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-6.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00006</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/sandalia-7.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00007</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/43.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/zapatilla-8.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00008</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/80.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/zapatilla-9.jpeg" alt="Sandalia">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00009</em></p>
+               <p><strong>Talla: </strong>38</p>
+               <p><strong>Precio: </strong>S/80.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+      </section>
+   </section>
+   
+   <section id="joyas">
+      <div class="titulo">
+         <h2>Joyas</h2>
+      </div>
+      <section class="contenido">
+         <article>
+            <img loading="lazy" src="img/joya-1.jpg" alt="Collar con aretes">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00010</em></p>
+               <p><strong>Precio: </strong>S/65.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/joya-2.jpg" alt="Collar con aretes">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00011</em></p>
+               <p><strong>Precio: </strong>S/60.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/joya-3.jpg" alt="Aretes">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00012</em></p>
+               <p><strong>Precio: </strong>S/60.00</p>
+               <p><strong>Estado actual:</strong> Agotado</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/joya-4.jpg" alt="Gancho">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00013</em></p>
+               <p><strong>Precio: </strong>S/15.00</p>
+               <p><strong>Estado actual:</strong> Agotado</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/joya-5.jpg" alt="Aretes">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00014</em></p>
+               <p><strong>Precio: </strong>S/7.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+      </section>
+   </section>
+   
+   <section id="carteras">
+      <div class="titulo">
+         <h2>Carteras</h2>
+      </div>
+      <section class="contenido">
+         <article>
+            <img loading="lazy" src="img/cartera-2.jpeg" alt="Neceser">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00015</em></p>
+               <p><strong>Precio: </strong>S/40.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/cartera-3.jpeg" alt="Cartera">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00016</em></p>
+               <p><strong>Precio: </strong>S/80.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/cartera-4.jpeg" alt="Cartera">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00017</em></p>
+               <p><strong>Precio: </strong>S/80.00</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+         <article>
+            <img loading="lazy" src="img/cartera-5.jpeg" alt="Cartera">
+            <div class="descripcion">
+               <h3>Descripci&oacute;n:</h3>
+               <p><strong>Id: </strong><em>00018</em></p>
+               <p><strong>Precio: </strong>S/60.00</p>
+               <p><strong>Estado actual:</strong> Agotado</p>
+               <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+            </div>
+         </article>
+      </section>
+   </section>
+   
+   <section id="ropa">
+      <div class="titulo">
+         <h2>Ropa</h2>
+      </div>
+      <section id="tutus">
+         <div class="subtitulos">
+            <h4>Tut&uacute;s</h4>
+         </div>
+         <section class="contenido">
+            <article>
+               <img loading="lazy" src="img/tutu-1.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00019</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-2.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00020</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-3.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00021</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-4.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00022</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-5.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00023</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-6.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00024</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-7.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00025</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-8.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00026</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-9.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00027</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-10.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00028</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-11.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00029</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+               <img loading="lazy" src="img/tutu-12.jpeg" alt="Tutu">
+               <div class="descripcion">
+                  <h3>Descripci&oacute;n:</h3>
+                  <p><strong>Id: </strong><em>00030</em></p>
+                  <p><strong>Precio: </strong>S/25.00</p>
+                  <p>Puedes comprar el producto escribiendo al whatsapp del siguiente n&uacute;mero: <a href="tel:928511239">928511239</a></p>
+               </div>
+            </article>
+            <article>
+         </section>
+      </section>
+   </section>
+   
+   <footer>
+      <a href="https://www.facebook.com/veronikhayassenia.lachiflores" target="-blank">
+         <img loading="lazy" src="img/facebook-wrap.png" alt="Facebook">
+      </a>
+      <p>&copy; Norl&yacute; 2020 - 2021</p>
+   </footer>
+   
+   <script src="https://kit.fontawesome.com/20f34c5893.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
