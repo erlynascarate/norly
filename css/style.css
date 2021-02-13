@@ -32,7 +32,7 @@ BARRA DE NAVEGACION
 header::before{
    display: block;
    content: "";
-   margin-bottom: 80px;
+   margin-bottom: 110px;
 }
 
 nav{
@@ -47,6 +47,11 @@ nav{
 
 .logo{
    padding: 10px 0;
+   text-align: center;
+}
+
+.logo h2{
+   font-size: 0.8em;
 }
 
 nav a{
@@ -75,7 +80,7 @@ nav a{
 
 /*Menu hamburguesa*/
 #menu{
-   top: 78px;
+   top: 93px;
    left: 0;
    width: 90px;
    height: 0;
@@ -111,7 +116,7 @@ PRODUCTOS
 ***********************/
 
 .titulo{
-   margin: 85px 0 30px 0;
+   margin: 85px 0 50px 0;
    text-align: center;
    border-bottom: 10px solid #598CF8;
 }
