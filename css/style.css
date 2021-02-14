@@ -102,7 +102,6 @@ nav a{
 
 .menu-toggle {
    flex-basis: 20px;
-   margin: 0 3px;
    cursor: pointer;
    color: #fff;
 }
