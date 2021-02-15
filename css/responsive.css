@@ -1,5 +1,32 @@
 @media all and (min-width:480px){
    
+   article{
+      width: 40%;
+      margin: 5%;
+   }
+   
+   .costados{
+      margin: 0 5%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   
+   .acerca{
+      flex-grow: 3;
+   }
+   
+   .infogen{
+      flex-grow: 3;
+   }
+   
+   .agregar-imagen{
+      width: 80%;
+   }
+
+}
+
+@media all and (min-width:660px){
+   
    .logo{
       text-align: left;
    }
@@ -25,37 +52,11 @@
       color: green;
    }
    
-   article{
-      width: 40%;
-      margin: 5%;
-   }
-   
-   #menu{
-      top: 68.5px;
+   #menu {
+      top: 68px;
       left: auto;
    }
    
-   .costados{
-      margin: 0 5%;
-      flex-direction: row;
-      justify-content: space-between;
-   }
-   
-   .acerca{
-      flex-grow: 3;
-   }
-   
-   .infogen{
-      flex-grow: 3;
-   }
-   
-   .agregar-imagen{
-      width: 80%;
-   }
-
-}
-
-@media all and (min-width:660px){
    article{
       width: 29%;
       margin: 5% 2%;
