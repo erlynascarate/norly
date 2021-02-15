@@ -88,26 +88,32 @@ nav a{
    position: absolute;
    background: #14FF00;
    transition: .3s ease-out;
+   display: flex;
+   flex-direction: column;
+}
+
+#menu .menu-link{
+   border-bottom: 1px solid green;
+   height: 25%;
+   display: flex;
+   align-items: center;
 }
 
 #menu a{
+   padding: 5px;
    width: 100%;
    font-weight: 800;
-   display: block;
-   border-bottom: 1px solid #2D8626;
    color: #024C05;
-   padding: 5px 10px;
-   
 }
 
-.menu-toggle {
+.menu-toggle{
    flex-basis: 20px;
    cursor: pointer;
    color: #fff;
 }
 
 .show{
-   height: 118px !important;
+   height: 119px !important;
 }
 
 /**********************
