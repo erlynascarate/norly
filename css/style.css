@@ -148,6 +148,7 @@ PRODUCTOS
 }
 
 .contenido img{
+   cursor: pointer;
    border-radius: 20%;
 }
 
