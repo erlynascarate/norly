@@ -1,5 +1,9 @@
 @media all and (min-width:480px){
    
+   .logo h2{
+      font-size: 1em;
+   }
+   
    article{
       width: 40%;
       margin: 5%;
