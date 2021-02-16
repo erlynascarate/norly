@@ -1,7 +1,24 @@
 @media all and (min-width:480px){
    
+   .logo h1{
+      font-size: 1.8em;
+   }
+   
    .logo h2{
-      font-size: 1em;
+      font-size: 1.15em;
+   }
+   
+   .menu-toggle{
+      font-size: 30px;
+   }
+   
+   .nav a{
+      font-size: 1.2em;
+      padding: 7px 0;
+   }
+   
+   #menu {
+      top: 110px;
    }
    
    article{
@@ -57,7 +74,7 @@
    }
    
    #menu {
-      top: 68px;
+      top: 78px;
       left: auto;
    }
    
