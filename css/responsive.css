@@ -1,5 +1,9 @@
 @media all and (min-width:480px){
    
+   header::before {
+      margin-bottom: 130px;
+   }
+   
    .logo h1{
       font-size: 1.8em;
    }
@@ -9,11 +13,11 @@
    }
    
    .menu-toggle{
-      font-size: 30px;
+      font-size: 26px;
    }
    
    .nav a{
-      font-size: 1.2em;
+      font-size: 1.1em;
       padding: 7px 0;
    }
    
