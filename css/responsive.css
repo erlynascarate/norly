@@ -52,7 +52,7 @@
       flex-shrink: 0;
    }
    
-   .select{
+   .select, .nav a:hover{
       color: green;
    }
    
