@@ -55,16 +55,16 @@
    }
    
    nav{
+   	border-bottom: 5px solid green;
+   	display: flex;
       padding: 0 5%;
       flex-direction: row;
       justify-content: space-between;
-      border-bottom: 5px solid green;
    }
    
    .nav{
       width: auto;
       background: none;
-      padding-right: 10%; 
    }
    
    .nav a, svg{
@@ -75,9 +75,9 @@
       color: green;
    }
    
-   /*.show {
-      height: 139px !important;
-   }*/
+   #menu{
+   	right: 0;
+   }
    
    article{
       width: 29%;

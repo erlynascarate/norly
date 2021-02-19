@@ -29,14 +29,17 @@ p{
 BARRA DE NAVEGACION
 *********************/
 
+header{
+	position: fixed;
+	width: 100%;
+}
+
 nav{
-   display: flex;
-   flex-direction: column;
+   /*display: flex;
+   flex-direction: column;*/
    background: #00ff00;
-   align-items: center;
-   position: fixed;
-   width: 100%;
-   top: 0;
+   /*align-items: center;
+   top: 0;*/
 }
 
 .logo{
@@ -76,8 +79,7 @@ nav a{
 /*Menu hamburguesa*/
 #menu{
    width: 0;
-   right: 0;
-   height: 100vh;
+   height: 200;
    overflow: hidden;
    position: fixed;
    background: rgba(0, 0, 0, .6);
@@ -89,7 +91,7 @@ nav a{
 }
 
 #menu a{
-	padding: 50px 0;
+	padding: 15px 0;
    text-align: center;
    font-size: 1.1em;
    font-weight: 800;
@@ -104,7 +106,7 @@ nav a{
 }
 
 .show{
-   width: 26% !important;
+   width: 90px !important;
 }
 
 .espacio{
