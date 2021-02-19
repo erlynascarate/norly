@@ -29,12 +29,6 @@ p{
 BARRA DE NAVEGACION
 *********************/
 
-header::before{
-   display: block;
-   content: "";
-   margin-bottom: 110px;
-}
-
 nav{
    display: flex;
    flex-direction: column;
@@ -81,40 +75,40 @@ nav a{
 
 /*Menu hamburguesa*/
 #menu{
-   top: 93px;
-   left: 0;
-   width: 90px;
-   height: 0;
+   width: 0;
+   right: 0;
+   height: 100vh;
    overflow: hidden;
-   position: absolute;
-   background: #14FF00;
+   position: fixed;
+   background: rgba(0, 0, 0, .6);
+   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .2);
    transition: .3s ease-out;
    display: flex;
    flex-direction: column;
-}
-
-#menu .menu-link{
-   border-bottom: 1px solid green;
-   height: 25%;
-   display: flex;
-   align-items: center;
+   justify-content: space-around;
 }
 
 #menu a{
-   padding: 5px;
-   width: 100%;
+	padding: 50px 0;
+   text-align: center;
+   font-size: 1.1em;
    font-weight: 800;
-   color: #024C05;
+   color: #f2f2f2;
 }
 
 .menu-toggle{
+	z-index: 100;
    font-size: 23px;
    cursor: pointer;
    color: #fff;
 }
 
 .show{
-   height: 120px !important;
+   width: 26% !important;
+}
+
+.espacio{
+	height: 110px;
 }
 
 /**********************
@@ -122,7 +116,7 @@ PRODUCTOS
 ***********************/
 
 .titulo{
-   margin: 85px 0 50px 0;
+	margin-bottom: 5%;
    text-align: center;
    border-bottom: 10px solid #598CF8;
 }
