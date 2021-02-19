@@ -1,8 +1,8 @@
 @media all and (min-width:480px){
-   
-   header::before {
-      margin-bottom: 130px;
-   }
+	
+	.espacio{
+		height: 140px;
+	}
    
    .logo h1{
       font-size: 1.8em;
@@ -21,10 +21,6 @@
       padding: 7px 0;
    }
    
-   #menu {
-      top: 110.5px;
-   }
-   
    article{
       width: 40%;
       margin: 5%;
@@ -36,10 +32,12 @@
       justify-content: space-between;
    }
    
+   /*Acercafe*/
    .acerca{
       flex-grow: 3;
    }
    
+   /*Contacto*/
    .infogen{
       flex-grow: 3;
    }
@@ -77,14 +75,9 @@
       color: green;
    }
    
-   #menu {
-      top: 78px;
-      left: auto;
-   }
-   
-   .show {
+   /*.show {
       height: 139px !important;
-   }
+   }*/
    
    article{
       width: 29%;
