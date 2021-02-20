@@ -150,6 +150,10 @@ article{
    margin: 5% 10%;
 }
 
+article a:hover{
+	color: #ccc;
+}
+
 .descripcion p a{
    background-size: 20px 20px;
    background-repeat: no-repeat;
