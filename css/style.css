@@ -75,7 +75,7 @@ nav a{
 /*Menu hamburguesa*/
 #menu{
    width: 0;
-   height: 200;
+   height: 200px;
    overflow: hidden;
    position: fixed;
    background: rgba(0, 0, 0, .4);
