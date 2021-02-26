@@ -155,7 +155,7 @@ PRODUCTOS
 }
 
 .abarrotes .contenedor{
-	margin: 2%;
+	margin: 0 2%;
 }
 
 .abarrotes article{
@@ -185,21 +185,22 @@ PRODUCTOS
 	box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 }
 
-.abarrotes .precio{
-	font-family: cursive;
-	color: #f00;
-}
-
 .abarrotes .titulo-des{
-	font-size: 1.11em;
+	font-size: 14px;
 	font-family: monospace;
 	color: grey;
 	border-bottom: 1px solid grey;
 }
 
 .abarrotes .descrip{
+	font-size: 13px;
 	font-family: monospace;
 	color: #A4A4A7
+}
+
+.abarrotes .precio {
+	font-family: cursive;
+	color: #f00;
 }
 
 article{

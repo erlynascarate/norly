@@ -26,6 +26,14 @@
    	margin: 1%;
    }
    
+   .abarrotes .titulo-des, .abarrotes .precio{
+   	font-size: 16px;
+   }
+   
+   .abarrotes .descrip{
+   	font-size: 15px;
+   }
+   
    article{
       width: 40%;
       margin: 5%;
