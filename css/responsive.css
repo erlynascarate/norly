@@ -21,6 +21,11 @@
       padding: 7px 0;
    }
    
+   .abarrotes article{
+   	width: 25.3%;
+   	margin: 1%;
+   }
+   
    article{
       width: 40%;
       margin: 5%;
@@ -78,6 +83,10 @@
    #menu{
    	height: 290px;
    	right: 0;
+   }
+   
+   .abarrotes article {
+   	width: 17%;
    }
    
    article{

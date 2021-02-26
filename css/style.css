@@ -75,7 +75,7 @@ nav a{
 /*Menu hamburguesa*/
 #menu{
    width: 0;
-   height: 200px;
+   height: 300px;
    overflow: hidden;
    position: fixed;
    background: rgba(0, 0, 0, .4);
@@ -109,6 +109,10 @@ nav a{
 	height: 110px;
 }
 
+.espacio1{
+	height: 55px;
+}
+
 /**********************
 PRODUCTOS
 ***********************/
@@ -119,7 +123,7 @@ PRODUCTOS
    border-bottom: 10px solid #598CF8;
 }
 
-#tutus{
+.subtitulo{
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -143,6 +147,54 @@ PRODUCTOS
 .contenido img{
    cursor: pointer;
    border-radius: 20%;
+}
+
+/*Abarrotes*/
+.abarrotes, .abarrotes-color{
+	background: #f2f2f2;
+}
+
+.abarrotes .contenedor{
+	margin: 2%;
+}
+
+.abarrotes article{
+	width: 40%;
+	padding: 3%;
+	margin: 2%;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.abarrotes article:hover{
+	box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.abarrotes a{
+	display: inline-block;
+	padding: 5px;
+	border: 1.75px solid #5EDA32;
+	border-radius: 10px;
+	color: #5EDA32;
+	transition: .3s ease-in-out;
+}
+
+.abarrotes a:hover{
+	background: #5EDA32;
+	color: #fff;
+	box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+.abarrotes .precio{
+	font-family: cursive;
+	color: #f00;
+}
+
+.abarrotes .titulo-des{
+	font-size: 1.11em;
+	font-family: monospace;
+	color: grey;
+	border-bottom: 1px solid grey;
 }
 
 article{
