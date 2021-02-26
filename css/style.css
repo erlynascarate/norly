@@ -197,6 +197,11 @@ PRODUCTOS
 	border-bottom: 1px solid grey;
 }
 
+.abarrotes .descrip{
+	font-family: monospace;
+	color: #A4A4A7
+}
+
 article{
    width: 80%;
    margin: 5% 10%;
