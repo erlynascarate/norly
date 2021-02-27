@@ -159,15 +159,15 @@ PRODUCTOS
 }
 
 /*Abarrotes*/
-.abarrotes, .abarrotes-color{
+.dos-columnas, .abarrotes-color{
 	background: #f2f2f2;
 }
 
-.abarrotes .contenedor{
+.dos-columnas .contenedor{
 	margin: 0 2%;
 }
 
-.abarrotes article{
+.dos-columnas article{
 	width: 40%;
 	padding: 3%;
 	margin: 2%;
@@ -175,11 +175,11 @@ PRODUCTOS
 	border-radius: 10px;
 }
 
-.abarrotes article:hover{
+.dos-columnas article:hover{
 	box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
 }
 
-.abarrotes a{
+.dos-columnas a{
 	display: inline-block;
 	padding: 5px;
 	border: 1.75px solid #5EDA32;
@@ -194,22 +194,40 @@ PRODUCTOS
 	box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 }
 
-.abarrotes .titulo-des{
+.ropa a{
+	border-color: #7075B5;
+	color: #7075B5;
+}
+
+.ropa a:hover{
+	background: #7075B5;
+	color: #fff;
+}
+
+.ropa{
+	padding: 8% 0;
+}
+
+.dos-columnas .titulo-des{
 	font-size: 14px;
 	font-family: monospace;
 	color: grey;
 	border-bottom: 1px solid grey;
 }
 
-.abarrotes .descrip{
+.dos-columnas .descrip{
 	font-size: 13px;
 	font-family: monospace;
 	color: #A4A4A7
 }
 
-.abarrotes .precio {
+.dos-columnas .precio {
 	font-family: cursive;
 	color: #f00;
+}
+
+.ropa .precio{
+	color: #00f;
 }
 
 article{

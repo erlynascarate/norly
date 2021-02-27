@@ -21,16 +21,16 @@
       padding: 7px 0;
    }
    
-   .abarrotes article{
+   .dos-columnas article{
    	width: 25.3%;
    	margin: 1%;
    }
    
-   .abarrotes .titulo-des, .abarrotes .precio{
+   .dos-columnas .titulo-des, .dos-columnas .precio{
    	font-size: 16px;
    }
    
-   .abarrotes .descrip{
+   .dos-columnas .descrip{
    	font-size: 15px;
    }
    
@@ -93,8 +93,9 @@
    	right: 0;
    }
    
-   .abarrotes article {
-   	width: 17%;
+   .dos-columnas article {
+   	padding: 2%;
+   	width: 19%;
    }
    
    article{
