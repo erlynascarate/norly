@@ -120,7 +120,13 @@ PRODUCTOS
 .titulo{
 	margin-bottom: 5%;
    text-align: center;
-   border-bottom: 10px solid #598CF8;
+   border-bottom: 7px solid #598CF8;
+}
+
+.abarrotes .titulo{
+	border-bottom: 5px dotted #87878D;
+	color: #0000006B;
+	margin-bottom: 2%;
 }
 
 .subtitulo{
@@ -132,9 +138,12 @@ PRODUCTOS
 }
 
 .subtitulos{
+	font-family: cursive;
+	font-size: 25px;
    text-align: center;
    width: 85%;
-   background: #7075B5;
+   color: #7075B5;
+   border-bottom: 3px dashed #7075B5;
 }
 
 .contenido{
