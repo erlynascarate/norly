@@ -159,7 +159,7 @@ PRODUCTOS
 }
 
 /*Abarrotes*/
-.dos-columnas, .abarrotes-color{
+.dos-columnas, .mediofondo-color{
 	background: #f2f2f2;
 }
 
@@ -205,7 +205,7 @@ PRODUCTOS
 }
 
 .ropa{
-	padding: 8% 0;
+	padding-bottom: 8%;
 }
 
 .dos-columnas .titulo-des{
