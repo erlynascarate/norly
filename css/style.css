@@ -316,6 +316,10 @@ CONTACTO
    background-image: url("../img/whatsapp.png");
 }
 
+.contacto .phone{
+	background-image: url("../img/phone.png")
+}
+
 .contacto .facebook{
    background-image: url("../img/facebook.png");
 }
