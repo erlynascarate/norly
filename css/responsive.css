@@ -93,6 +93,14 @@
    	right: 0;
    }
    
+   .show{
+   	width: 120px !important;
+   }
+   
+   .dos-columnas .contenedor {
+   	margin: 0 auto;
+   }
+   
    .dos-columnas article {
    	padding: 2%;
    	width: 19%;
